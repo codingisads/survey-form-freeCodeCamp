@@ -74,12 +74,11 @@ form{
     display: block;
 }
 
-.recommend-area{
-    display: flex;
-    justify-content: space-evenly;
-    margin: 0 auto;
-}
 
+
+#recommend > label{
+    display: block;
+}
 #name-label, #email-label, #number-label{
     font-weight: 800;
 }
@@ -88,12 +87,21 @@ p:not(#description){
 }
 
 #suggestions{
+    aspect-ratio: 1/1;
     width: 100%;
-    aspect-ratio: 3/1;
     font-family: 'Courier New', Courier, monospace;
     background-color: rgba(255, 255, 255, 0.5);
     color:rgb(39, 39, 39);
     border: none;
+}
+
+
+@media (min-width: 460px) {
+    #suggestions{
+        aspect-ratio: 3/1;
+    }
+    
+    
 }
 
 button{
@@ -102,13 +110,22 @@ button{
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 40%;
+    width: 90%;
     aspect-ratio: 4/1;
     background-color: rgba(228, 228, 228, 1);
     border: 2px solid rgb(43, 43, 43);
     border-radius: 25px;
     color:rgb(31, 31, 31);
     font-weight: 800;
+    font-size: 18px;
+}
+
+@media (min-width: 540px) {
+    button{
+        width: 50%;
+    }
+    
+    
 }
 
 button:hover{
