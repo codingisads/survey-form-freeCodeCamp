@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+</head>
+<body>
+    
+    <main>
+        <h1 id="title">freeCodeCamp Survey Form</h1>
+        <p id="description">Thank you for helping us improving the platform</p>
+
+        <form id="survey-form">
+            <div>
+                <label id="name-label">Name
+                    <input id="name" class="display-block" type="text" placeholder="Enter your name" required>
+                </label>
+                
+            </div>
+            <div>
+                <label id="email-label">Email
+                    <input id="email" class="display-block" type="email" placeholder="Enter your Email" required>
+                </label>
+            </div>
+            <div>
+                <label id="number-label">Age (optional)
+                    <input id="number" class="display-block" type="number" min="0" max="100" placeholder="Enter your age" required>
+                </label>
+            </div>
+            <div>
+                <p>Which option best describes you current role?</p>
+                <select id="dropdown">
+                    
+                    <option selected disabled value>Select current role</option>
+                    <option>Student</option>
+                    <option>Full time job</option>
+                    <option>Full time student</option>
+                    <option>Other</option>
+                    <option>I prefer not to say</option>
+                </select>
+            </div>
+            <div id="recommend">
+                <p>Would you recommend freeCodeCamp to a friend?</p>
+                <div class="recommend-area">
+                    <label>
+                        <input type="radio" checked value="definitely" name="user-recommendation">
+                        Definitely
+                    </label>
+                    <label>
+                        <input type="radio" value="maybe" name="user-recommendation">
+                        Maybe
+                    </label>
+                    <label>
+                        <input type="radio" value="not-sure" name="user-recommendation">
+                        Not sure
+                    </label>
+                </div>
+               
+            </div>
+            <div class="improvements">
+                <p>What would you like to see improved? (Check all that apply)</p>
+                <label>
+                    <input type="checkbox" value="frontend-tutorials" name="user-prefer">
+                    Front-end tutorials
+                </label>
+                <label>
+                    <input type="checkbox" value="backend-tutorials" name="user-prefer">
+                    Back-end tutorials
+                </label>
+                <label>
+                    <input type="checkbox" value="ai-tutorials" name="user-prefer">
+                    AI tutorials
+                </label>
+                <label>
+                    <input type="checkbox" value="uxui-tutorials" name="user-prefer">
+                    UX/UI tutorials
+                </label>
+            </div>
+
+            <div>
+                <p>Any suggestions?</p>
+                <textarea id="suggestions" name="user-comments" placeholder="Enter your comments here..."></textarea>
+            </div>
+
+            <div id="btn-area">
+                <button id="submit" type="submit">Submit</button>
+            </div>
+        </form>
+    </main>
+    
+
+
+</body>
+</html>
