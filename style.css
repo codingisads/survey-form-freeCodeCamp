@@ -14,7 +14,7 @@
 body{
     /* background-image: url("/SurveyForm-freeCodeCamp/img/background.jpg"); */
     /* background-image: conic-gradient(red, yellow, green); */
-    background-image: url("/SurveyForm-freeCodeCamp/img/back.jpg");
+    background-image: url("/img/back.jpg");
     background-repeat: no-repeat;
     background-size: auto;
     background-attachment: fixed;
