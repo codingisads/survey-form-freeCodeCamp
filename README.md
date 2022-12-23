@@ -6,7 +6,7 @@
 
 <p>You can check how it looks visiting the link below:</p>
 
-<h3><a href="https://survey-form-codingisads.netlify.app" alt="survey-form-codingisads">Survey Form</a></h3>
+<h3><a href="https://survey-form-codingisads.netlify.app" alt="survey-form-codingisads" target="_blank">Survey Form</a></h3>
 
 
 <!--
