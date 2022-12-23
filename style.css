@@ -38,6 +38,16 @@ main{
     border: 1px solid rgba(255, 255, 255, 0.37);
 }
 
+main > p:last-of-type{
+    text-align: center;
+    font-weight: 200;
+    font-size: 10px;
+}
+
+main > p > a{
+    color: rgb(66, 66, 66);
+}
+
 main h1, main p[id="description"]{
     text-align: center;
     color: rgb(66, 66, 66);
